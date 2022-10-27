@@ -7,3 +7,16 @@ The primary purpose for constructing a data model for a database is to be able t
 This is also useful in making sure that the database will work for what it is intended to be used for. A database model is not always necessary. Most of the time the database model will
 be an informal one because the time spent making a formal model is not as valuable as the time actually building the database.
 * What are business rules? And how do they relate to creating data models? Provide an example.
+Business rules are exactly as they are titled. They are rules that the business has established. What makes them relevant to us is how they effect the creation of our database.
+Business rules will be special parameters that effect how we can design our data. For example, sometimes employees at a company have an employee code or number that is based off of name characteristics. At my current job my employee code is strmb.
+This is constructed specifically from the first three letters of my last name, first initial, and then middle initial. Every employee has a code like this and so this is a business rule that will affect how a database of employees at my job will be built.
+* What is the difference between an Entity Relationship Diagram and an Object Relationship Diagram? Provide an example of when you might use each.
+To be honest I am having a hard time finding the answer to this. It seems like this concept may have many different terms which poses a hurdle when trying to search for it. From what I have found it seems as if an Entity Relationship Diagram focuses more
+on generality. Using a student as an example, an ERD might show that a student can have certain attributes like a student id, name, classes enrolled in, GPA, and more. And an Object Relationship Diagram will be more specific. Using the same example of the student,
+an ORD might list the student's specific ID number, name, classes, GPA, and more. I am not confident in this answer and look forward to reading what my fellow students have found.
+* What is cardinality in data modeling? How many types of cardinality depiction are there? Which would you prefer and why?
+Cardinality in data modeling is how many times part of a table can be related to another piece of data. There are three types of cardinality depiction. one-to-one, which is like how a person can only have one social security number and a social security number may
+only be assigned to one person.
+One-to-many, Which is like how each trick-or-treater can take one piece of candy from the bowl(business rule example here too) but the bowl can have many kids taking candy from it.
+many-to-many, Which would be if the trick-or-treaters could help themselves to what they wanted from the bowl.
+I am not sure which I would prefer from my perspective. one-to-one or one-to-many seem like they would be easier to work with since they have less possible relationships.
