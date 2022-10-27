@@ -1,0 +1,9 @@
+#+title: Module 2 Discussion
+#+author: Michael B. Streed
+#+description: Business rules + ERD's
+
+* Explain the primary purpose for constructing a data model for a database. Is a data model always necessary?
+The primary purpose for constructing a data model for a database is to be able to organize the data to be stored and to start looking for and relationships that the data may have.
+This is also useful in making sure that the database will work for what it is intended to be used for. A database model is not always necessary. Most of the time the database model will
+be an informal one because the time spent making a formal model is not as valuable as the time actually building the database.
+* What are business rules? And how do they relate to creating data models? Provide an example.
