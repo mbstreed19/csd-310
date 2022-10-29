@@ -1,0 +1,32 @@
+Michael B. Streed
+Assignment 2.3
+NoSQL Translation
+
+User:
+    {
+    "first name": "Mikey",
+    "last name": "Streed",
+
+        "roles": [
+            {
+            "role 1": "electrician"
+            },
+            {
+            "role 2": "aspiring developer"
+            },
+            {
+            "role 3": "some other role"
+            },
+        ]
+
+        "birthday": "12/24/1989",
+
+        "dependants": [
+            {
+            "child": "Zyon",
+            },
+            {
+            "pet": "Noodle"
+            },
+        ]
+}
