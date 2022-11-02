@@ -1,0 +1,15 @@
+#+title: Module3.1
+#+author: Michael B. Streed
+
+* Can a database be in Third Normal Form (3NF), without achieving First Normal Form(1NF)? Why or why not?
+It is not possible for a database to be in Third Normal Form, or even second normal form, without achieving First Normal Form beforehand.
+This is because the very steps to becoming 2NF or 3NF require that 1NF be completed. Trying to skip one of these forms of normalization
+would be akin to boiling 100 degree Fahrenheit water while skipping 150 degrees.
+
+Besides having achieved first and second normal form, the requirements of third normal form is that all fields in the database have to be independent of each other.
+This independence requirement does not include any value that would be considered a key. This means that any field should be able to be changed without having to change
+another field. For example if you had a database that included an age field and a date of birth field this would not be considered 3NF because changes to the date of birth
+will cause changes to the age field.
+
+First Normal Form requires that all the fields have atomicity, which means that the data has been broken down to its smallest form. It also requires that there are no repeating fields or groups of fields.
+Once these requirements are understood it becomes clear that it would be impossible to become 3NF without first becoming 1NF along the way, whether intentionally or not.
