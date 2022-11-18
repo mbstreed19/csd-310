@@ -1,3 +1,6 @@
+# Michael Streed
+# 11-18-2022
+# module 6.2
 import mysql.connector
 from mysql.connector import errorcode
 
