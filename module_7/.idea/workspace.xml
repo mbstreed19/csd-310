@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548dd14b-b8be-4387-9ae7-cd7c1e7ae410" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../module_6/~$reed-Movies-setup.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module_6/~WRL0005.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mstreed_Tables_Queries.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Mstreed_Tables_Queries.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$treed_Tables_Queries.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +23,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/OhDee/csd-310/module_7",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/OhDee/csd-310/module_7&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\OhDee\csd-310\module_7" />
@@ -48,7 +51,9 @@
       <option name="presentableId" value="Default" />
       <updated>1669350740424</updated>
       <workItem from="1669350742031" duration="418000" />
-      <workItem from="1669351272259" duration="9607000" />
+      <workItem from="1669351272259" duration="9758000" />
+      <workItem from="1669421356696" duration="59000" />
+      <workItem from="1669440689132" duration="613000" />
     </task>
     <servers />
   </component>

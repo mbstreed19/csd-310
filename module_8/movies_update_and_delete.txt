@@ -1,0 +1,91 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\OhDee> cd .\csd-310\
+PS C:\Users\OhDee\csd-310> .\db_init_2022.sql
+PS C:\Users\OhDee\csd-310> python .\module_8\movies_update_and_delete.py
+CMySQLCursor: select film_name as Name, film_director ..
+
+ -- DISPLAYING FILMS --
+Film name : Gladiator
+Director: Ridley Scott
+Genre Name ID: Drama
+Studio Name: Universal Pictures
+
+Film name : Alien
+Director: Ridley Scott
+Genre Name ID: Drama
+Studio Name: 20th Century Fox
+
+Film name : Get Out
+Director: Jordan Peele
+Genre Name ID: Horror
+Studio Name: Blumhouse Productions
+
+CMySQLCursor: select film_name as Name, film_director ..
+
+ -- DISPLAYING FILMS AFTER INSERT --
+Film name : Gladiator
+Director: Ridley Scott
+Genre Name ID: Drama
+Studio Name: Universal Pictures
+
+Film name : Alien
+Director: Ridley Scott
+Genre Name ID: Drama
+Studio Name: 20th Century Fox
+
+Film name : Get Out
+Director: Jordan Peele
+Genre Name ID: Horror
+Studio Name: Blumhouse Productions
+
+Film name : Star Wars
+Director: George Lucas
+Genre Name ID: Drama
+Studio Name: 20th Century Fox
+
+CMySQLCursor: select film_name as Name, film_director ..
+
+ -- DISPLAYING FILMS AFTER UPDATE- Changed Alien to horror --
+Film name : Gladiator
+Director: Ridley Scott
+Genre Name ID: Drama
+Studio Name: Universal Pictures
+
+Film name : Alien
+Director: Ridley Scott
+Genre Name ID: Horror
+Studio Name: 20th Century Fox
+
+Film name : Get Out
+Director: Jordan Peele
+Genre Name ID: Horror
+Studio Name: Blumhouse Productions
+
+Film name : Star Wars
+Director: George Lucas
+Genre Name ID: Drama
+Studio Name: 20th Century Fox
+
+CMySQLCursor: select film_name as Name, film_director ..
+
+ -- DISPLAYING FILMS AFTER DELETE --
+Film name : Alien
+Director: Ridley Scott
+Genre Name ID: Horror
+Studio Name: 20th Century Fox
+
+Film name : Get Out
+Director: Jordan Peele
+Genre Name ID: Horror
+Studio Name: Blumhouse Productions
+
+Film name : Star Wars
+Director: George Lucas
+Genre Name ID: Drama
+Studio Name: 20th Century Fox
+
+PS C:\Users\OhDee\csd-310>
