@@ -1,0 +1,45 @@
+#+title: Business Rules Erd Notes
+* goals and reasoning for making this database
+** goals copy any pasted from case study
+- Are all suppliers delivering on time? Is there a large gap between expected
+  delivery and actual delivery? A month by month report should show problem
+  areas.
+- The wine distribution, are all wines selling as they thought? Is one wine not
+  selling? Which distributor carries which wine?
+- Employee time. During the last four quarters, how many hours did each employee work?
+- Maria would like their distributors to be able to order online, and to be able to track shipments.
+
+* company Information and structure
+** employees
+*** owners
+owners are responsible for supply inventory
+**** Stan Bacchus
+**** Davis Bacchus
+*** finances/payroll
+**** Janet Collins
+*** distribution
+**** Maria Costanza
+*** marketing
+**** Roz Murphy -- Head of department
+**** Bob Ulrich -- Roz Murphy's assistant
+*** Production
+**** Henry Doyle -- production manager
+**** 20 other employees managed by Henry Doyle
+** products
+*** wines
+It would make sense to me that these would be able to share a bottle, but each have different labels.
+**** Merlot
+**** cabernet
+**** Chablis
+**** chardonnay
+** Suppliers/supplies
+The names were not specified, but the products are. I'm sure we can name the suppliers ourselves
+*** supplier one
+**** Bottles
+**** corks
+*** supplier two
+**** labels
+**** boxes
+*** supplier three
+**** vats
+**** tubing
